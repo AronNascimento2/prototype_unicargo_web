@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #097969; /* Cor verde para a barra de rolagem */
+  border-radius: 4px;
+}
+
